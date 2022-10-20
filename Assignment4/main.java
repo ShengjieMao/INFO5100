@@ -75,6 +75,7 @@ public class main {
         // return the letter grade result
         char letter_grade;
         letter_grade = test.calcLetter(total);
+        System.out.print(total);
         System.out.println("Letter grade is: " + letter_grade);
 
     }
